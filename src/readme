@@ -6,7 +6,7 @@ import express from "express";
 //wecall express
 const app = express();
 
-//process.env.PORT is same as like amazone.com instead we use 3000 its a local host
+//process.env.PORT is samee as like amazone.com instead we use 3000 its a local host
 const PORT = process.env.PORT || 3000;
 
 //creating users details in a variable for easy use
