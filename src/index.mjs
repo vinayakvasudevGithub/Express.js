@@ -28,7 +28,7 @@ app.get("/api/users", (request, response) => {
   response.send(mockusers);
 });
 
-//example tooo
+//example toooo
 app.get("/api/products", (request, response) => {
   response.send([{ id: 1, productname: "chicken", price: 12.99 }]);
 });
