@@ -16,7 +16,7 @@ const mockusers = [
 { id: 3, username: "adam", displayname: "adam" },
 ];
 
-//Get requists
+//Get requistss
 //request contains everything related to imconing http requests (eg:if u pass http request from client side to server side the headers property in the requests object ,to acces data from clint )
 //resopnse use to modify the response and send it back to user(we can send html,json,texts we can send anything)
 app.get("/", (request, response) => {
